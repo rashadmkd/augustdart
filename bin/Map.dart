@@ -10,7 +10,6 @@ void main(){
   print(map2);
   map.forEach((key, value) {
     print("$key = $value");
-    pr
     });
 
 

@@ -8,7 +8,7 @@ void main(){
   print(set2.length);
   set2.addAll(set1);  //2 set merge cheyyan
   print(set2);
-  var set3={"anaz","rashad","nehla","sayand"};
+  var set3={"Anaz","Rashad","Nehla","sayand"};
   print(set3);
   set3.forEach((element) {  //foreach use one by one value
     print(element);
@@ -27,5 +27,5 @@ void main(){
   print(set6.difference(set5));// 2 setulla different value show akkan
   List<int>list1=set2.toList();
   print(list1);
-  List<String>
+
 }
