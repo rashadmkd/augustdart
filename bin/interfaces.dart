@@ -12,7 +12,7 @@ class Daughter{
     print("daughter name :$dname,daughter age :$dage");
   }
 }
-class Parent implements Son,Daughter{
+class Parent implements Son,Daughter{     //parent ne call akuka .ennitt ellam override ll kond varuka .sadharanna pole bakki cheyukka.
   @override
   int age=25;
 
@@ -20,10 +20,10 @@ class Parent implements Son,Daughter{
   int dage=20;
 
   @override
-  String dname="Änaz";
+  String dname="Anaz";
 
   @override
-  String name="Rahul";
+  String name="Rashad";
 
   @override
   void display() {
@@ -34,13 +34,13 @@ class Parent implements Son,Daughter{
 
 
   @override
-  void show() {
+  void show(){
    print("Daughter details");
    print(dname);
    print(dage);
   }
-  String pname="kiran";
-  int page=45;
+  String pname="Nehla";
+  int page=50;
   void Parentdetails(){
     print("Parent details");
     print(pname);
